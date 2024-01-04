@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+}
+
+ul li {
+    list-style-type: none;
+  }
+  
+/*navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background-color: #5f8575;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 28px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo a:hover {
+    color: #e0ac1c;
+    transition: 0.3s;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #e0ac1c;
+    transition: 0.3s;
+  }
+  
+  nav a .fa-user {
+      color: white;
+  }
+  
+  nav a .fa-user:hover{
+      color:#e0ac1c;
+  }
+  
+  button {
+    border: none;
+    background: #4caf50;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  
+
+  /* footer */
+
+.footer-distributed {
+    background-color: #5f8575;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links  {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed ul.footer-links  li a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+.footer-distributed ul.footer-links li a:hover {
+    color: #e0ac1c;
+    padding-left: 15px;
+    transition: 0.5s ease;
+}
+
+.footer-distributed .footer-company-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-center h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}  
+  
+/* form */ 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: white;
+    padding-bottom: 70px;
+
+}
+
+.container form {
+    padding: 20px;
+    width: 700px;
+    background-color: #dff4e1;
+    box-shadow: 0 5px 10px rgba(0, 0, 50, 0.3);
+    border-radius: 5px;
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col {
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title {
+    font-size: 20px;
+    color: #33383b;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox {
+    margin: 25px 5px;
+}
+
+.container form .row .col .inputBox span {
+    margin-bottom: 5px;
+    display: block;
+    color: #33383b;
+}
+
+.container form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+.container form .row .col .inputBox .input:focus {
+    border: 1px solid #ccc;
+}
+
+.container form .row .col .inputBox img {
+    height: 60px;
+    width: 320px;
+    filter: drop-shadow(0 0 1px #000);
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.container form .donate-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: white;
+    color: #4caf50;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #33383b;
+}
+
+.container form .donate-btn:hover {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #33383b;
+}
