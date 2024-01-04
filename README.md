@@ -1,2 +1,2 @@
-# foodbank.github.io
+# foodbank
 Food Bank Web Development
